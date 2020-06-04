@@ -1,0 +1,50 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 197 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 63950 0 0
+ciMethod java/lang/String length ()I 3113 1 13794 0 -1
+ciMethod java/lang/System getSecurityManager ()Ljava/lang/SecurityManager; 2057 1 1849 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 5121 1 640 0 -1
+ciMethod java/nio/Buffer <init> (IIII)V 2129 1 5463 0 384
+ciMethod java/nio/Buffer position ()I 1129 1 141 0 0
+ciMethod java/nio/Buffer position (I)Ljava/nio/Buffer; 2105 1 5520 0 128
+ciMethod java/nio/Buffer limit (I)Ljava/nio/Buffer; 2809 1 5545 0 160
+ciMethod java/nio/Buffer remaining ()I 2281 1 57035 0 -1
+ciMethod java/nio/Buffer hasRemaining ()Z 3081 1 44946 0 64
+ciMethod java/lang/Character isHighSurrogate (C)Z 313 1 39 0 -1
+ciMethod java/lang/Character isLowSurrogate (C)Z 0 0 1 0 -1
+ciMethod java/lang/Character isSurrogate (C)Z 3233 1 40588 0 -1
+ciMethod java/lang/Math min (II)I 3249 1 17285 0 -1
+ciMethod java/util/Arrays copyOf ([CI)[C 977 1 8417 0 0
+ciMethod java/nio/ByteBuffer <init> (IIII[BI)V 2081 1 5454 0 480
+ciMethod java/nio/ByteBuffer wrap ([BII)Ljava/nio/ByteBuffer; 3409 1 5550 0 0
+ciMethod java/nio/ByteBuffer get ()B 0 0 1 0 -1
+ciMethod java/nio/HeapByteBuffer <init> ([BII)V 3409 1 5602 0 0
+ciMethod java/nio/Bits byteOrder ()Ljava/nio/ByteOrder; 2065 1 5468 0 0
+ciMethodData java/lang/Object <init> ()V 2 63979 orig 264 152 190 226 89 0 0 0 0 216 4 135 27 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 89 191 7 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod sun/nio/cs/ArrayDecoder decode ([BII[C)I 0 0 1 0 -1
+ciMethod java/nio/charset/CharsetDecoder maxCharsPerByte ()F 2089 1 5555 0 0
+ciMethod java/nio/charset/CharsetDecoder decode (Ljava/nio/ByteBuffer;Ljava/nio/CharBuffer;Z)Ljava/nio/charset/CoderResult; 2073 1 5558 0 384
+ciMethod java/nio/charset/CharsetDecoder flush (Ljava/nio/CharBuffer;)Ljava/nio/charset/CoderResult; 2161 1 5543 0 128
+ciMethod java/nio/charset/CharsetDecoder implFlush (Ljava/nio/CharBuffer;)Ljava/nio/charset/CoderResult; 2161 1 5543 0 0
+ciMethod java/nio/charset/CharsetDecoder reset ()Ljava/nio/charset/CharsetDecoder; 2073 1 5617 0 0
+ciMethod java/nio/charset/CharsetDecoder implReset ()V 537 1 67 0 -1
+ciMethod java/nio/charset/CharsetDecoder decodeLoop (Ljava/nio/ByteBuffer;Ljava/nio/CharBuffer;)Ljava/nio/charset/CoderResult; 0 0 1 0 -1
+ciMethod java/nio/charset/CharsetDecoder throwIllegalStateException (II)V 0 0 1 0 -1
+ciMethod java/nio/CharBuffer <init> (IIII[CI)V 2305 1 5695 0 0
+ciMethod java/nio/CharBuffer wrap ([CII)Ljava/nio/CharBuffer; 2065 1 5664 0 0
+ciMethod java/nio/CharBuffer wrap ([C)Ljava/nio/CharBuffer; 3441 1 5550 0 0
+ciMethod java/nio/CharBuffer put (C)Ljava/nio/CharBuffer; 0 0 1 0 -1
+ciMethod java/nio/CharBuffer put (Ljava/lang/String;)Ljava/nio/CharBuffer; 0 0 1 0 -1
+ciMethod java/nio/HeapCharBuffer <init> ([CII)V 2065 1 5664 0 0
+ciMethod java/nio/charset/CoderResult isUnderflow ()Z 3185 1 22210 0 0
+ciMethod java/nio/charset/CoderResult isOverflow ()Z 2105 1 5558 0 0
+ciMethod java/nio/charset/CoderResult isMalformed ()Z 0 0 1 0 -1
+ciMethod java/nio/charset/CoderResult isUnmappable ()Z 0 0 1 0 -1
+ciMethod java/nio/charset/CoderResult length ()I 0 0 1 0 -1
+ciMethod java/nio/charset/CoderResult malformedForLength (I)Ljava/nio/charset/CoderResult; 0 0 1 0 -1
+ciMethod java/nio/charset/CoderResult throwException ()V 0 0 1 0 -1
+ciMethod java/lang/StringCoding safeTrim ([CILjava/nio/charset/Charset;Z)[C 3417 1 5698 0 0
+ciMethod java/lang/StringCoding scale (IF)I 3417 1 5577 0 0
+ciMethod j
